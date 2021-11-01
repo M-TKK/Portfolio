@@ -1,0 +1,1291 @@
+<div class="main-title-text">
+    <h2>Hi there, my name is <mark>Mitchell</mark></h2>
+    <h1>i love designing things for the web!</h1>
+    <p>I am a Front-End Developer based in Sydney, <mark>i strive to create beautiful responsive content for all
+        platforms.</mark></p>
+    <p>Get in touch - <a href="mailto:mitchellboumelhem@gmail.com">mitchellboumelhem@gmail.com</a></p>
+    <a href="" class="resume-btn"><img src="/img/trending_flat_black_24dp.svg" alt=""> View my resume</a>
+</div>
+<div class="title-img">
+    <img src="/img/title-img.png" alt="">
+</div>
+
+
+<div class="projects">
+        <section class="projects-heading">
+            <h1>my work</h1>
+        </section>
+        <section class="projects-body">
+            <div class="pi-1" id="project-item">
+                <h3>radiant blooms</h3>
+                <div class="p-links">
+                    <a href=""><i class="bi bi-github"></i></a>
+                    <a href=""><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="pi-2" id="project-item">
+                <h3>bfgroup retail</h3>
+                <div class="p-links">
+                    <a href=""><i class="bi bi-github"></i></a>
+                    <a href=""><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="pi-3" id="project-item">
+                <h3>annie baker</h3>
+                <div class="p-links">
+                    <a href=""><i class="bi bi-github"></i></a>
+                    <a href=""><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="pi-4" id="project-item">
+                <h3>iwibooks</h3>
+                <div class="p-links">
+                    <a href=""><i class="bi bi-github"></i></a>
+                    <a href=""><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="pi-5" id="project-item">
+                <h3>radiant blooms</h3>
+                <div class="p-links">
+                    <a href=""><i class="bi bi-github"></i></a>
+                    <a href=""><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="pi-6" id="project-item">
+                <h3>bfgroup retail</h3>
+                <div class="p-links">
+                    <a href=""><i class="bi bi-github"></i></a>
+                    <a href=""><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="pi-7" id="project-item">
+                <h3>annie baker</h3>
+                <div class="p-links">
+                    <a href=""><i class="bi bi-github"></i></a>
+                    <a href=""><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="pi-8" id="project-item">
+                <h3>iwibooks</h3>
+                <div class="p-links">
+                    <a href=""><i class="bi bi-github"></i></a>
+                    <a href=""><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+    .main-title{
+
+    .title-img{
+        width: 50%;
+        margin: 0 auto;
+        padding: 0 0 1em 0;
+
+        img{
+            width: 100%;
+            object-fit: fill;
+        }
+    }
+
+    padding: 1.5em 1.5em 3em 1.5em;
+    height: auto;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+
+    mark{
+        background: #f76d6d;
+        padding: .2em;
+    }
+
+    h2{
+        
+        font-family: $monst;
+        text-transform: none;
+        font-weight: 600;
+        font-size: 1.2em;
+        margin: 0 0 .7em 0;
+    }
+
+    h1{
+        
+        font-family: $monst;
+        font-size: 2rem;
+        text-align: left;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin: 0 0 .5em 0;
+        position: relative;
+
+    }
+
+    p{
+        
+        font-family: $monst;
+        font-weight: 500;
+        margin: 0 0 1.2em 0;
+        line-height: 1.9;
+        
+        &:nth-of-type(2){
+            
+            font-size: .88em;
+        }
+
+        a{
+            font-size: .88em;
+            margin: 0 0 0 .2em;
+            color: #F76D6D;
+            transition: color 200ms ease;
+
+            &:hover{
+                color: #ffb9b9;
+            }
+        }
+    }
+
+    a{
+        
+        font-family: $monst;
+        font-weight: 600;
+        color: #000;
+    }
+}
+
+.projects{
+    background: #fff;
+    padding: 1.5em;
+
+    .projects-heading{
+
+        h1{
+            font-family: $monst;
+            margin: 0 0 1em 0;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+    }
+
+    .projects-body{
+        height: auto;
+        display: grid;
+        gap: 1.5em;
+
+        #project-item{
+            width: 100%;
+            height: 40vh;
+            background: cornflowerblue;
+            position: relative;
+
+            h3{
+                position: absolute;
+                bottom: 1.5em; left: 1.5em;
+                margin: 0;
+                font-family: $monst;
+                font-weight: 900;
+                text-transform: uppercase;
+                font-size: 1.25em;
+            }
+
+            .p-links{
+                display: flex;
+                gap: 1em;
+                align-items: center;
+                position: absolute;
+                bottom: 1.5em; right: 1.5em;
+                font-size: 1.25em;
+
+                i{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    .open-wrapper{
+        transform: scale(0.9) translateX(-20%);
+    }
+
+    // Navagation
+
+    .main-nav{
+        padding: 2em 5em 0 5em;
+
+        // Nav Logo
+
+        .nav-logo{
+            width: 5%;
+        }
+
+        // Nav Btn
+
+        .nav-btn{
+            display: grid;
+            gap: .38em;
+            width: 2.5vw;
+            padding: 0;
+            background: none;
+            border: none;
+            
+            .nl{
+                width: 100%;
+                background: #000;
+                height: 2px;
+                justify-self: right;
+            }
+
+            .nl-2{
+                width: 80%;
+            }
+
+            .nl-3{
+                width: 60%;
+            }
+        }
+
+        // Nav Mobile Links    
+
+        .mobile-links{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            top: 0;
+
+            li{
+                font-size: 2.5em;
+                padding: 0 0 1em 0;
+            }
+        }
+    }
+
+    // Main Title
+
+    .main-title{
+        padding: 0 7em;
+        height: calc(100vh - 61px);
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 2em;
+        
+        .main-title-text{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            justify-content: center;
+        }
+
+        .title-img{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 70%;
+            margin: 0 auto;
+            padding: 0 0 2em 0;
+
+            img{
+                width: 100%;
+                object-fit: fill;
+            }
+        }
+
+        mark{
+            background: #f76d6d;
+            padding: .2em;
+        }
+
+        h2{
+            font-family: $monst;
+            text-transform: none;
+            font-weight: 600;
+            font-size: 1.3em;
+            margin: 0 0 0 0;
+        }
+
+        h1{
+            font-family: $monst;
+            font-size: 2.9rem;
+            text-align: left;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin: 0 0 0 0;
+            position: relative;
+
+        }
+
+        p{
+            font-family: $monst;
+            font-weight: 500;
+            font-size: 1.1em;
+            line-height: 2;
+            margin: 0;
+            align-self: flex-start;
+            
+            &:nth-of-type(2){
+
+                font-size: 1em;
+                align-self: flex-start;
+            }
+
+            a{
+                font-size: 1em;
+                margin: 0 0 0 .2em;
+                color: #F76D6D;
+            }
+        }
+
+        .resume-btn{
+            align-self: flex-start;
+            font-family: $monst;
+            font-weight: 600;
+            color: #000;
+            display: flex;
+            gap: 1.5em;
+            align-items: center;
+            transition: color 500ms ease;
+
+
+            &:hover{
+                color: #f76d6d;
+            }
+        }
+    }
+
+    // Projects
+
+    .projects{
+        background: #fff;
+        padding: 2em 5em;
+        display: flex;
+        flex-direction: column;
+
+        .projects-heading{
+
+            h1{
+                font-family: $monst;
+                margin: 0 0 1em 0;
+                font-weight: 900;
+                text-transform: uppercase;
+                font-size: 2.5em;
+            }
+        }
+
+        .projects-body{
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5em;
+            margin: 0 0 5em 0;
+
+            &:last-of-type{
+                margin: 0;
+            }
+
+            #project-item{
+                width: 100%;
+                height: 55vh;
+                background: cornflowerblue;
+                position: relative;
+
+                h3{
+                    position: absolute;
+                    bottom: 1.5em; left: 1.5em;
+                    margin: 0;
+                    font-family: $monst;
+                    font-weight: 900;
+                    text-transform: uppercase;
+                }
+
+                .p-links{
+                    display: flex;
+                    gap: 1em;
+                    align-items: center;
+                    position: absolute;
+                    bottom: 1.5em; right: 1.5em;
+
+                    i{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-footer{
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em 5em;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: .8em 0;
+            display: flex;
+            gap: 1em; 
+        }
+
+        .footer-nav{
+            
+            a{
+                color: #000;
+                text-transform: capitalize;
+            }
+        }
+
+        .footer-socials{
+            gap: 1.5em;
+            
+            a{
+                color: #000;
+                font-size: 1.3em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1330px){
+
+    .open-wrapper{
+        transform: scale(0.9) translateX(-20%);
+    }
+
+    // Navagation
+
+    .main-nav{
+        padding: 2em 5em 0 5em;
+
+        // Nav Logo
+
+        .nav-logo{
+            width: 5%;
+        }
+
+        // Nav Btn
+
+        .nav-btn{
+            width: 2.7vw;
+        }
+    }
+
+}
+
+@media screen and (min-width: 1500px){
+
+    .open-wrapper{
+        transform: scale(0.9) translateX(-20%);
+    }
+
+    // Navagation
+
+    .main-nav{
+        padding: 2em 9em 0 9em;
+
+        // Nav Logo
+
+        .nav-logo{
+            width: 4.5%;
+        }
+
+    }
+
+    // Main Title
+
+    .main-title{
+        padding: 0 9em;
+        height: calc(100vh - 61px);
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 2em;
+        
+        .main-title-text{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            justify-content: center;
+        }
+
+        .title-img{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 69%;
+            margin: 0 auto;
+            padding: 0 0 2em 0;
+
+            img{
+                width: 100%;
+                object-fit: fill;
+            }
+        }
+
+        mark{
+            background: #f76d6d;
+            padding: .2em;
+        }
+
+        h2{
+            font-family: $monst;
+            text-transform: none;
+            font-weight: 600;
+            font-size: 1.3em;
+            margin: 0 0 0 0;
+        }
+
+        h1{
+            font-family: $monst;
+            font-size: 3.1rem;
+            text-align: left;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin: 0 0 0 0;
+            position: relative;
+
+        }
+
+        p{
+            font-family: $monst;
+            font-weight: 500;
+            font-size: 1.2em;
+            line-height: 2.1;
+            margin: 0;
+            align-self: flex-start;
+            
+            &:nth-of-type(2){
+
+                font-size: 1em;
+                align-self: flex-start;
+            }
+
+            a{
+                font-size: 1em;
+                margin: 0 0 0 .2em;
+                color: #F76D6D;
+            }
+        }
+
+        .resume-btn{
+            align-self: flex-start;
+            font-family: $monst;
+            font-weight: 600;
+            color: #000;
+            display: flex;
+            gap: 1.5em;
+            align-items: center;
+            transition: color 500ms ease;
+
+
+            &:hover{
+                color: #f76d6d;
+            }
+        }
+    }
+
+    // Projects
+
+    .projects{
+        background: #fff;
+        padding: 2em 9em;
+
+        .projects-heading{
+
+            h1{
+                font-family: $monst;
+                margin: 0 0 1em 0;
+                font-weight: 900;
+                text-transform: uppercase;
+                font-size: 2.5em;
+            }
+        }
+
+        .projects-body{
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5em;
+
+            #project-item{
+                width: 100%;
+                height: 55vh;
+                background: cornflowerblue;
+                position: relative;
+
+                h3{
+                    position: absolute;
+                    bottom: 1.5em; left: 1.5em;
+                    margin: 0;
+                    font-family: $monst;
+                    font-weight: 900;
+                    text-transform: uppercase;
+                }
+
+                .p-links{
+                    display: flex;
+                    gap: 1em;
+                    align-items: center;
+                    position: absolute;
+                    bottom: 1.5em; right: 1.5em;
+
+                    i{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-footer{
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3em 9em;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: .8em 0;
+            display: flex;
+            gap: 1em; 
+        }
+
+        .footer-nav{
+            
+            a{
+                color: #000;
+                text-transform: capitalize;
+            }
+        }
+
+        .footer-socials{
+            gap: 1.5em;
+            
+            a{
+                color: #000;
+                font-size: 1.3em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1630px){
+
+    .open-wrapper{
+        transform: scale(0.9) translateX(-20%);
+    }
+
+    // Navagation
+
+    .main-nav{
+        padding: 2em 9em 0 9em;
+
+        // Nav Logo
+
+        .nav-logo{
+            width: 4.5%;
+        }
+
+        // Nav Btn
+
+        .nav-btn{
+            width: 2.4vw;
+        }
+
+        // Nav Mobile Links    
+
+        .mobile-links{
+            top: 0;
+            right: -20em;
+
+            li{
+                font-size: 3em;
+                padding: 0 0 1.2em 0;
+            }
+        }
+    }
+
+    // Main Title
+
+    .main-title{
+        padding: 0 9em;
+        height: calc(100vh - 61px);
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 2em;
+        
+        .main-title-text{
+            display: flex;
+            flex-direction: column;
+            gap: 1.3em;
+            justify-content: center;
+        }
+
+        .title-img{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 75%;
+            margin: 0 auto;
+            padding: 0 0 2em 0;
+
+            img{
+                width: 100%;
+                object-fit: fill;
+            }
+        }
+
+        mark{
+            background: #f76d6d;
+            padding: .2em;
+        }
+
+        h2{
+            font-family: $monst;
+            text-transform: none;
+            font-weight: 600;
+            font-size: 1.4em;
+            margin: 0 0 0 0;
+        }
+
+        h1{
+            font-family: $monst;
+            font-size: 3.8rem;
+            text-align: left;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin: 0 0 0 0;
+            position: relative;
+
+        }
+
+        p{
+            font-family: $monst;
+            font-weight: 500;
+            font-size: 1.3em;
+            line-height: 2.1;
+            margin: 0;
+            align-self: flex-start;
+            
+            &:nth-of-type(2){
+
+                font-size: 1.1em;
+                align-self: flex-start;
+            }
+
+            a{
+                font-size: 1.1em;
+                margin: 0 0 0 .2em;
+                color: #F76D6D;
+            }
+        }
+
+        .resume-btn{
+            align-self: flex-start;
+            font-family: $monst;
+            font-weight: 600;
+            color: #000;
+            display: flex;
+            gap: 1.5em;
+            align-items: center;
+            transition: color 500ms ease;
+            font-size: 1.1em;
+
+
+            &:hover{
+                color: #f76d6d;
+            }
+        }
+    }
+
+    // Projects
+
+    .projects{
+        background: #fff;
+        padding: 2em 9em;
+
+        .projects-heading{
+
+            h1{
+                font-family: $monst;
+                margin: 0 0 1em 0;
+                font-weight: 900;
+                text-transform: uppercase;
+                font-size: 3em;
+            }
+        }
+
+        .projects-body{
+            grid-template-columns: repeat(3, 1fr);
+
+            #project-item{
+                height: 40vh;
+
+                h3{
+                    bottom: 2em; left: 2em;
+                    font-size: 1.3em;
+                }
+
+                .p-links{
+                    gap: 1.5em;
+                    bottom: 2em; right: 2em;
+
+                    i{
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-footer{
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3em 9em;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: .8em 0;
+            display: flex;
+            gap: 1.5em; 
+        }
+
+        .footer-nav{
+            font-size: 1.1em;
+            
+            a{
+                color: #000;
+                text-transform: capitalize;
+            }
+        }
+
+        .footer-socials{
+            gap: 1.5em;
+            
+            a{
+                color: #000;
+                font-size: 1.5em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1900px){
+
+    .open-wrapper{
+        transform: scale(0.9) translateX(-20%);
+    }
+
+    // Navagation
+
+    .main-nav{
+        padding: 2em 11em 0 11em;
+
+        // Nav Logo
+
+        .nav-logo{
+            width: 3.5%;
+        }
+
+        // Nav Btn
+
+        .nav-btn{
+            width: 2vw;
+        }
+
+        // Nav Mobile Links    
+
+        .mobile-links{
+            top: 0;
+            right: -22em;
+
+            li{
+                font-size: 3.1em;
+                padding: 0 0 .8em 0;
+            }
+        }
+    }
+
+    // Main Title
+
+    .main-title{
+        padding: 0 15em;
+        height: calc(100vh - 61px);
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 5em;
+        
+        .main-title-text{
+            display: flex;
+            flex-direction: column;
+            gap: 1.3em;
+            justify-content: center;
+            width: 70%;
+        }
+
+        .title-img{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 55%;
+            margin: 0 auto;
+            padding: 0 0 2em 0;
+
+            img{
+                width: 100%;
+                object-fit: fill;
+            }
+        }
+
+        mark{
+            background: #f76d6d;
+            padding: .2em;
+        }
+
+        h2{
+            font-family: $monst;
+            text-transform: none;
+            font-weight: 600;
+            font-size: 1.4em;
+            margin: 0 0 0 0;
+        }
+
+        h1{
+            font-family: $monst;
+            font-size: 3.8rem;
+            text-align: left;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin: 0 0 0 0;
+            position: relative;
+
+        }
+
+        p{
+            font-family: $monst;
+            font-weight: 500;
+            font-size: 1.3em;
+            line-height: 2.1;
+            margin: 0;
+            align-self: flex-start;
+            
+            &:nth-of-type(2){
+
+                font-size: 1.1em;
+                align-self: flex-start;
+            }
+
+            a{
+                font-size: 1.1em;
+                margin: 0 0 0 .2em;
+                color: #F76D6D;
+            }
+        }
+
+        .resume-btn{
+            align-self: flex-start;
+            font-family: $monst;
+            font-weight: 600;
+            color: #000;
+            display: flex;
+            gap: 1.5em;
+            align-items: center;
+            transition: color 500ms ease;
+            font-size: 1.1em;
+
+
+            &:hover{
+                color: #f76d6d;
+            }
+        }
+    }
+
+    // Projects
+
+    .projects{
+        background: #fff;
+        padding: 2em 15em;
+
+        .projects-heading{
+
+            h1{
+                font-family: $monst;
+                margin: 0 0 1em 0;
+                font-weight: 900;
+                text-transform: uppercase;
+                font-size: 3em;
+            }
+        }
+
+        .projects-body{
+
+            #project-item{
+                height: 45vh;
+
+                h3{
+                    bottom: 2em; left: 2em;
+                    font-size: 1.3em;
+                }
+
+                .p-links{
+                    gap: 1.5em;
+                    bottom: 2em; right: 2em;
+
+                    i{
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-footer{
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3em 9em;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: .8em 0;
+            display: flex;
+            gap: 1.5em; 
+        }
+
+        .footer-nav{
+            font-size: 1.1em;
+            
+            a{
+                color: #000;
+                text-transform: capitalize;
+            }
+        }
+
+        .footer-socials{
+            gap: 1.5em;
+            
+            a{
+                color: #000;
+                font-size: 1.5em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 2500px){
+
+    .open-wrapper{
+        transform: scale(0.9) translateX(-20%);
+    }
+
+    // Navagation
+
+    .main-nav{
+        padding: 2em 15em 0 15em;
+
+        // Nav Logo
+
+        .nav-logo{
+            width: 3%;
+        }
+
+        // Nav Btn
+
+        .nav-btn{
+            width: 1.5vw;
+        }
+
+        // Nav Mobile Links    
+
+        .mobile-links{
+            top: 0;
+            right: -30.5em;
+
+            li{
+                font-size: 4.5rem;
+                padding: 0 0 .8em 0;
+            }
+        }
+    }
+
+    // Main Title
+
+    .main-title{
+        padding: 0 25em;
+        height: calc(100vh - 61px);
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 5em;
+        
+        .main-title-text{
+            display: flex;
+            flex-direction: column;
+            gap: 1.3em;
+            justify-content: center;
+            width: 70%;
+        }
+
+        .title-img{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 55%;
+            margin: 0 auto;
+            padding: 0 0 2em 0;
+
+            img{
+                width: 100%;
+                object-fit: fill;
+            }
+        }
+
+        mark{
+            background: #f76d6d;
+            padding: .2em;
+        }
+
+        h2{
+            font-family: $monst;
+            text-transform: none;
+            font-weight: 600;
+            font-size: 1.7em;
+            margin: 0 0 0 0;
+        }
+
+        h1{
+            font-family: $monst;
+            font-size: 4.5rem;
+            text-align: left;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin: 0 0 0 0;
+            position: relative;
+
+        }
+
+        p{
+            font-family: $monst;
+            font-weight: 500;
+            font-size: 1.5em;
+            line-height: 2.1;
+            margin: 0;
+            align-self: flex-start;
+            
+            &:nth-of-type(2){
+
+                font-size: 1.3em;
+                align-self: flex-start;
+            }
+
+            a{
+                font-size: 1.1em;
+                margin: 0 0 0 .2em;
+                color: #F76D6D;
+            }
+        }
+
+        .resume-btn{
+            align-self: flex-start;
+            font-family: $monst;
+            font-weight: 600;
+            color: #000;
+            display: flex;
+            gap: 1.5em;
+            align-items: center;
+            transition: color 500ms ease;
+            font-size: 1.3em;
+
+
+            &:hover{
+                color: #f76d6d;
+            }
+        }
+    }
+
+    // Projects
+
+    .projects{
+        background: #fff;
+        padding: 0 25em 15em 25em;
+
+        .projects-heading{
+
+            h1{
+                font-family: $monst;
+                margin: 0 0 1em 0;
+                font-weight: 900;
+                text-transform: uppercase;
+                font-size: 4.5rem;
+            }
+        }
+
+        .projects-body{
+            grid-template-columns: repeat(4, 1fr);
+
+            #project-item{
+                height: 40vh;
+
+                h3{
+                    bottom: 2em; left: 2em;
+                    font-size: 1.3em;
+                }
+
+                .p-links{
+                    gap: 1.5em;
+                    bottom: 2em; right: 2em;
+
+                    i{
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-footer{
+        background: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3em 15em;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: .8em 0;
+            display: flex;
+            gap: 1.5em; 
+        }
+
+        .footer-nav{
+            font-size: 1.1em;
+            
+            a{
+                color: #000;
+                text-transform: capitalize;
+            }
+        }
+
+        .footer-socials{
+            gap: 1.5em;
+            
+            a{
+                color: #000;
+                font-size: 1.5em;
+            }
+        }
+    }
+}
