@@ -9,12 +9,6 @@ navBtn.addEventListener('click', () => {
 })
 
 
-const navLogo = document.querySelector('.nav-logo')
-
-navLogo.addEventListener("click", () => {
-    location.replace("https://www.mjboumelhem.com")
-    console.log('working');
-})
 
 
 const toggleBtn = document.getElementById('checkbox')
